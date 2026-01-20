@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # Shows listening sockets with PID and name of the program to which each socket belongs
+# Note that netstat is not the modern version, use ss instead
 
-ss -tulpen
-ss -lx
+netstat -tulpen
+netstat -lx
