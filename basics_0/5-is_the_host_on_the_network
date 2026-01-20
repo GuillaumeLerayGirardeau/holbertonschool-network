@@ -6,8 +6,4 @@ if [ -z "$1" ]; then
     exit 1
 fi
 
-ip="$1"
-
-for i in {1..5}; do
-    ping -c 1 "$ip"
-done
+ping -c 5 "$1"
