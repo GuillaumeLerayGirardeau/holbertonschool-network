@@ -3,4 +3,3 @@
 # Note that netstat is not the modern version, use ss instead
 
 netstat -tulpen
-netstat -lx
